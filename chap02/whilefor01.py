@@ -15,7 +15,7 @@ print("---")
 # 1-100사이 3의 배수 합과 3의 배수 추출하기
 cnt2 = 0
 tot2 = 0
-numList = []
+numList = [] # 리스트 객체 생성
 while cnt2 < 100:
     cnt2 += 1
     # 3의 배수만 추출
@@ -25,7 +25,30 @@ while cnt2 < 100:
         #print(cnt2)
 
 print('1-100까지 3의 배수:',numList)
-print('1-100까지 3의 배수이 합:', tot2)
+print('1-100까지 3의 배수의 합:', tot2)
+
+print("-- while(False), while(True)")
+print("-- False: 한번도 수행되지 않음")
+while False:
+    print("항상 거짓입니다.")
+
+print("-- True: 무한 반복")
+# while True:
+#     print("항상 참입니다.")
+
+numbers = [] # 리스트 구조
+while True:
+    num = int(input('숫자입력:'))
+    if num%10 == 0 :
+        print('프로그램을 종료합니다.')
+        break  # 제어문을 강제로 빠져나옴
+    else:
+        print(num)
+        numbers.append(num) # list에 추가
+
+print(numbers)
+
+
 
 
 
