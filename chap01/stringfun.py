@@ -37,10 +37,21 @@ print(word1.swapcase()) # 대<->소
 word2 = "   abcd    "
 print(word2,'문자길이:', len(word2))
 print(word2.strip(),'문자길이:', len(word2.strip()))
+
+# isdigit(), islower(), isupper(),...
 print("--- 판별: isXXXX()")
 print("TrainA10".isalpha())
 print("TrainA10".isdecimal())
+
 print("-- find(), rfind()")
+# 특정 문자가 있으면 문자의 인덱스번호
+# "excelTest.xls"
+str2 = "안녕a하세a요a".rfind("a") 
+print(str2)
+fileName = "excelTest.xls"
+extPos = fileName.rfind('xls')
+print(fileName,'=>확장자=>',fileName[10:])
+
 
 
 
