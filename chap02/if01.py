@@ -50,7 +50,7 @@ if number1%2 == 0:
 else :
     print("숫자 {}는 홀수입니다.".format(number1))
 
-print("-- else if")    
+print("-- else if(중첩조건문)")    
 number2 = 100
 if number2>0:
     print('0보다 크다')
@@ -59,3 +59,24 @@ else:
         print('0이다')
     else:
         print('0보다 작다')
+
+print("---")
+score = int(input('점수 입력: '))
+grade = ''  # 등급
+
+# 조건식 : 85<= score <= 100
+if score>=85 and score <= 100:
+    grade = '우수'
+elif score >= 70: # 나머지 조건에서 재조건
+    grade = '보통'
+elif score >= 60:
+    grade = '미흡'
+else:
+    grade = '저조'
+print("당신의 점수는 {}이고, 등급은 {}".format(score, grade))
+
+# 삼항 조건문: 변수 = 참 if (조건문) else 거짓
+number3 = 9
+result = number3*2 if number3>=5 else number3+2
+print(number3, result)
+
