@@ -34,3 +34,13 @@ print("홍길동\tHongGilDong")
 print("홍길동\\HongGilDong")
 print("홍길동\'HongGilDong")
 
+print("-"*10)
+#num = input('숫자입력:')
+#num = int(num) # 형전환 : string -> int
+#print(num*2, type(num)) # print("100"*2)
+
+
+print("---")
+num2 = float(  input("숫자입력:")  )
+print(num2, num2*2)
+
