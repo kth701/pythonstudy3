@@ -19,6 +19,7 @@ print(s1.difference(s2)) #차집합  {1, 5}
 print(s1.intersection(s2))#교집합 {3}
 
 s3 = {1,3,5}
+
 s3.add(7) # 요소 추가
 print(s3) # {1, 3, 5, 7}
 
