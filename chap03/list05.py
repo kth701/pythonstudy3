@@ -14,3 +14,15 @@ for items in list_b:
     #print(items) # 리스트 구조
     for item in items:
         print(item,end=" ")
+
+print()
+
+# 전개 연산자: *리스트
+a = [1,2,3,4]
+b = [*a, *a]
+print(b)
+c = [*a, "홍길동"]
+print(c)
+
+
+
