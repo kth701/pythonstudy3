@@ -41,6 +41,5 @@ print(lst_num2)
 lst_num2.clear() # []
 print(lst_num2)
 
-# 리스트 내부 요소 정렬
-print(lst_str, lst_str.sort())
+
 
