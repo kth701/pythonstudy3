@@ -25,7 +25,7 @@ def free_arg(*args, **kwargs):
 free_arg(10,20, 30,first="1st", second="2nd")
 
 
-print("--- ")
+print("--- 딕셔너리 데이터 전달 : **가변인자 ")
 def group_by_age(**kwargs):
     print(kwargs)
 
