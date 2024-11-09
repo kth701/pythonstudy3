@@ -42,8 +42,11 @@ def group_by_age(**kwargs):
         
     return group
 
-group_result = group_by_age(kim=25, jeong=16,park=11, hong=21, tea=12)
+group_result = group_by_age(kim=25, jeong=16)
 print(group_result)
+
+rs = group_by_age()
+print(rs)
 
 
 # 가변인자("*매개변수","**매개변수")
