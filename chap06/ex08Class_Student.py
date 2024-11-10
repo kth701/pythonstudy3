@@ -34,3 +34,8 @@ students = [
 print("이름", "총점", "평균", sep="\t")
 for student in students:
     print(student.to_string())
+
+# 객체를 생성하지 않고 메서드 또는 멤버변수 사용
+# st1 = Student("이순신", 100,20,90)
+# st1.eng, st1.mat, st1.average()
+#    => 클래스 이름으로 접근 => Student.eng, Student.average
