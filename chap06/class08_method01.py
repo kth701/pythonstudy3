@@ -9,7 +9,7 @@ class Student2:
     #생략시 기본을 설정됨
     #def __init__(self):
     #    pass
-    
+
     # 생성자
     def __init__(self, name, kor, mat, eng) :
         self.name = name
@@ -59,3 +59,4 @@ st_b = Student2("동순이", 100,100,100)
 print( st_a == st_b)
 print( st_a.total() == st_b.total())
 print( st_a != st_b)
+

@@ -50,3 +50,9 @@ flight.fly()
 
 flight = paper
 flight.fly()
+
+# 객체(인스턴스)가 어떤 클래스 인지 확인
+if isinstance(air, Bird):
+    print("bird는 Bird클래스로 생성된 객체입니다.")
+else:
+    print("bird는 Bird클래스로 생성된 객체가 아닙니다.")
