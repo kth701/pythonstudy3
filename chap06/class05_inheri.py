@@ -39,7 +39,7 @@ class Sub(Super):
         self.gender = gender 
         print("자식클래스 생성자 수행")
 
-    #def display(self):
+    #def display(self): #오버라이딩
     #    return print(f"이름:{self.name}, 나이:{self.age}, 성별:{self.gender}")
 
 
