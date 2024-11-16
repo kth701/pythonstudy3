@@ -51,8 +51,8 @@ print("-- urllib")
 from urllib import request
 url = request.urlopen("https://google.com")
 google_home = url.read()
-
 print(google_home)
+
 
 
 
