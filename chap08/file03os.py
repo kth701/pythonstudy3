@@ -19,9 +19,41 @@ list_dir = os.listdir('.')
 print(list_dir)
 
 # 폴더 생성( 하나, 여러개)
-os.mkdir('test')
+# os.mkdir('test')
+# list_dir = os.listdir('.')
+# print(list_dir)
+
+# 여러 폴더 생성
+print("-- 여러 폴드 생성하기")
+
+# os.makedirs('chap08/data2/data')
+
+# list_dir = os.listdir('chap08')
+# print(list_dir)
+
+# list_dir = os.listdir('chap08/data2')
+# print(list_dir)
+# print("----")
+
+# # 폴더 삭제
+# print('-- 폴더 삭제')
+# os.rmdir('test')
+
+# list_dir = os.listdir('.')
+# print(list_dir)
+
+# print("----")
+
+print('-- 여러 폴더 삭제')
+os.removedirs('chap08/data2/data')
+
 list_dir = os.listdir('.')
 print(list_dir)
+
+print("----")
+
+
+
 
 
 
