@@ -8,7 +8,7 @@ print('현재경로 : ', os.getcwd())
 # 파일처리, 네트워크 등 입출력관련 예외처리
 try:
     # 파일 읽기
-    ftest1 = open('chap01/oper011.py', mode='r', encoding='utf-8')
+    ftest1 = open('chap01/oper01.py', mode='r', encoding='utf-8')
     print(ftest1.read()) # 파일 전체 읽기
 
     # 파일 쓰기
