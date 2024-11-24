@@ -1,0 +1,27 @@
+# 보안정책
+# > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+# 가상환경 설정
+
+
+
+# 1. python에 내장된 가상환경 설치
+# 가상환경을 만들고자하는 폴더이동
+# >python -m venv .venv(가상환경이름) 
+# > .venv/Scripts/activate (활성화)
+# > deactivate(비활성화)
+
+# 2. 외부라이브러리 설치
+# > pip install virtualenv
+# > 가상환경 만들고자 하는 폴더 이동
+# > virtualenv .venv (가상환경이름 다른 이름을 사용해도 무관)
+    # 재구성된 가상환경에서 .venv폴더로 이동
+    # .venv폴더 아래 Scripts폴더에
+    # activate.bat 파일 가상환경 활성화, deactivate.bat파일이 비활성화
+
+# > .venv/Scripts/activate : 가상환경 활성화
+# > deactivate : 가상환경 비활성화
+
+
+
+
+# 3. 다른 가상환경활성화 시킬 경우 현재 활성화는 비활성화로 전환해야함.
